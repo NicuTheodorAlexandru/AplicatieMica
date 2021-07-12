@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{cf255b0d-882b-49da-92a6-284927a9439b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{faa18523-4acc-41f8-87a2-8c5d67463cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{5cc344ce-81ac-4fbb-b555-a0f75a14274b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{dd5c7d3e-6dfb-4897-a711-ac0a168ae261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\repo">
+      <UniqueIdentifier>{32689d24-96b8-4d4c-9b86-05c8c8dfcd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\repo">
+      <UniqueIdentifier>{c49f4ca1-36b8-4f2b-9e7a-2f0c82a1dfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{246833d2-5ca3-48de-af23-e98418608013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{89c48cbf-7e54-4284-bd69-5333a8a68869}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QtWidgetsApplication3.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="QtWidgetsApplication3.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="QtWidgetsApplication3.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="QtWidgetsApplication3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="IdGenerator.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Source Files\repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticket.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkingLot.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceVehicle.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceParkingLot.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceTicket.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="IdGenerator.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Header Files\repo</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkingLot.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceVehicle.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceParkingLot.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceTicket.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vehicles.txt" />
+  </ItemGroup>
+</Project>

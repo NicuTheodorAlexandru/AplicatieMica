@@ -1,0 +1,11 @@
+﻿  IdGenerator.cpp
+  Utils.cpp
+  Repository.cpp
+  Vehicle.cpp
+  QtWidgetsApplication3.cpp
+  main.cpp
+  qrc_QtWidgetsApplication3.cpp
+  moc_QtWidgetsApplication3.cpp
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall Repository<class Vehicle>::Repository<class Vehicle>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0?$Repository@VVehicle@@@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall Repository<class Vehicle>::~Repository<class Vehicle>(void)" (??1?$Repository@VVehicle@@@@QAE@XZ) referenced in function _main
+C:\Users\User\source\repos\QtWidgetsApplication3\Release\QtWidgetsApplication3.exe : fatal error LNK1120: 2 unresolved externals
